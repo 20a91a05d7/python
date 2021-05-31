@@ -1,0 +1,18 @@
+#while with else
+i=5
+while i<100: 
+   print(i) 
+   i+=10
+else:
+   print("loop terminates at %d",%i)
+Output:
+5
+10
+15
+20
+.
+.
+.
+.
+95
+loop terminates at 105
