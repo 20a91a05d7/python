@@ -1,0 +1,15 @@
+#factors of a number
+n=int(raw_input("enter n value"))
+i=1
+print("factors are")
+while(i<=n):
+    if(n%i==0):
+        print(i)
+    i+=1
+Output:
+enter n value 9
+factors are
+1
+3
+9
+
