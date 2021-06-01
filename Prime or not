@@ -1,0 +1,15 @@
+#checking whether the given number is prime or not
+n=int(raw_input("enter n value"))
+fact=0
+i=1
+while(i<=n):
+     if(n%i==0):
+        fact+=1
+     i+=1
+if(fact==2):
+    print("prime")
+else:
+    print("not prime")
+Output:
+enter n value 12
+not prime
