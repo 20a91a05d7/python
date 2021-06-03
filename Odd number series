@@ -1,0 +1,19 @@
+#odd number series
+s=int(raw_input("enter start value"))
+e=int(raw_input("enter end value"))
+i=s
+if(i%2==1)
+ for i in range(s,e+1,2):
+     print(i)
+else:
+ for i in range(s,e,2):
+      i+=1
+      print(i)
+Output:
+enter start value 3
+enter end value 9
+3
+5
+7
+9
+
