@@ -1,0 +1,22 @@
+# natural number series
+s=int(raw_input("enter start value"))
+e=int(raw_input("enter end value"))
+i=s
+while(i!=0):
+ for i in range(s,e+1):
+    print(i)
+    i+=1
+else: 
+ print("0 is not a natural number")
+ for i in range(s,e):
+     i+=1
+     print(i)
+Output:
+enter start value 0
+enter end value 5
+O is not a natural number
+1
+2
+3
+4
+5
